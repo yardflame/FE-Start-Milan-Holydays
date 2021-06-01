@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'Verdana' ;
+    src: url(./fonts/Verdana.ttf);
+    font-family: 'Courier' ;
+    src: url(./fonts/Courier.ttf);
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.site {
+ width: 1366px;
+ height: 768px;
+ font-family: 'Verdana','Courier', sans-serif;
+ background-image: url(./img/background.png);
+ background-repeat: no-repeat;
+ margin:  0 auto;
+}
+.shadow {
+ height: 768px;   
+ background-color: rgba(0, 0, 0, 0.75)
+}
+.container {
+ height: 768px;
+ padding-left: 155px;
+ padding-top: 50px;
+ padding-right: 150px;
+}
+
+a.logo{
+ background: url(./img/logo.jpg);
+ display: block;
+ width: 46px;
+ height: 44px;
+ text-decoration: none;
+}
+a.logo:hover{
+ background: url(./img/push_logo.jpg);
+}
+.name {
+ font-family: Tahoma;
+ padding-left: 61px;
+ color: white;
+ display: inline-block;
+ font-size: 20px;
+ font-weight: 600;
+ letter-spacing: 0.1em;
+
+}
+.name:visited {
+ color: white;
+}
+.name:hover {
+  color:#f26522;
+}
+.name span{
+ font-size: 14px;
+ font-weight: 600;
+ font-family: Tahoma;
+ text-transform: uppercase;
+ letter-spacing: 0em;
+}
+.contacts {
+	
+ padding-left: 815px;
+ text-align: right;
+ margin-top: -40px;
+}
+.content {
+ padding-top: 47px;
+ position: relative;
+}
+.categories_1 {
+ display: inline-block;
+ margin-bottom: 54px;
+ margin-right: 58px;
+}
+.categories_2 {
+ display: inline-block;
+ margin-bottom: 54px;
+}
+.categories_3 {
+ display: inline-block;
+ margin-bottom: 54px;
+ margin-left: 58px;
+}
+.categories_4 {
+ display: inline-block;
+ margin-bottom: 54px;
+ margin-right: 58px;
+}
+.categories_5 {
+ display: inline-block;
+ margin-bottom: 54px;
+}
+.categories_6 {
+ display: inline-block;
+ margin-bottom: 54px;
+ margin-left: 58px;
+}
+.border {
+ border: 2px solid white;
+ border-image: linear-gradient( to top, transparent 1%, white 100%);
+ border-image-slice: 1;
+}
+.size {
+ width: 307px;
+ height: 200px;
+ position: relative;
+}
+/*.categories [title] {
+    margin-left: 53px;
+    margin-right: 53px;
+   }
+*/
+.tours {
+ font-family: Tahoma;
+ color: white;
+ display: block;
+ text-align: center;
+ padding-top: 15px;
+}
+.price_container {
+ display: inline-block;
+ width: 313px;
+ height: 63px;
+ background-color: #f26522;
+ position: absolute;
+ top: 140px;
+ left: -3px;
+ opacity: 0;
+}
+.categories_1:hover .price_container {
+ opacity: 1;
+}
+.categories_1:hover .tours {
+ color: #f26522;
+}
+.categories_2:hover .price_container {
+ opacity: 1;
+}
+.categories_2:hover .tours {
+ color: #f26522;
+}
+.categories_3:hover .price_container {
+ opacity: 1;
+}
+.categories_3:hover .tours {
+ color: #f26522;
+}
+.categories_4:hover .price_container {
+ opacity: 1;
+}
+.categories_4:hover .tours {
+ color: #f26522;
+}
+.categories_5:hover .price_container {
+ opacity: 1;
+}
+.categories_5:hover .tours {
+ color: #f26522;
+}
+.categories_6:hover .price_container {
+ opacity: 1;
+}
+.categories_6:hover .tours {
+ color: #f26522;
+}
+.price {
+ display: inline-block;
+ padding-left: 20px;
+}
+.price p {
+ margin: 0px;
+ font-size: 1.3rem;
+}
+.price span {
+ margin: 0px;
+ font-size: 0.3rem;
+ padding: 0px;
+}
+.details_shop {
+ display: inline-block;
+ padding-left: 145px;
+ padding-top: 35px;
+ font-size: 0.7rem;
+}
+.details_sight {
+ display: inline-block;
+ padding-left: 133px;
+ padding-top: 35px;
+ font-size: 0.7rem;
+}
+.details_food {
+ display: inline-block;
+ padding-left: 133px;
+ padding-top: 35px;
+ font-size: 0.7rem;
+}
+.details_bars {
+ display: inline-block;
+ padding-left: 133px;
+ padding-top: 35px;
+ font-size: 0.7rem;
+}
+.details_art {
+ display: inline-block;
+ padding-left: 133px;
+ padding-top: 35px;
+ font-size: 0.7rem;
+}
+.details_walk {
+ display: inline-block;
+ padding-left: 145px;
+ padding-top: 35px;
+ font-size: 0.7rem;
+}
+.shopping_tours {
+	background-image: url(./img/Shopping\ Tours.png);
+}
+.sightseeing_tours {
+	background-image: url(./img/Sightseeing\ Tours.png);
+}
+.food_tours {
+	background-image: url(./img/Food\ Tours.png);
+}
+.bars_tours {
+	background-image: url(./img/Bars\ &\ Nightlife.png);
+}
+.art_tours {
+	background-image: url(./img/Art\ &\ Architecture.png);
+}
+.walking_tours {
+	background-image: url(./img/Walking\ Tours.png);
+}
+.copyright {
+ font-family: 'Courier';
+ color: white;
+ text-align: center;
+ font-size: 12px;
+ padding-bottom: 15px;
+}
+
